@@ -8,3 +8,5 @@ Usage notes to future me:
  - if we change the github repo name we need to update the obsidian-exporter-helper script settings
 
 Test
+
+Test 2
