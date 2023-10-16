@@ -15,6 +15,10 @@ Caution: if we change the pathname in Obsidian we need to update this in the `ob
  
 #### Other Notes
  - if we change the github repo name we need to update the obsidian-exporter-helper script settings
+- Notes template, see [[t-TIL]]
 
-### Notes Template
-- see [[t-TIL]]
+### Obsidian Setups
+- set default attachment location
+- plugins: 
+	- Templater
+	- Obsidian Git
