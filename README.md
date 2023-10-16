@@ -1,7 +1,6 @@
-This is the source notes of raw markdown notes to be published to the til website.
+The raw markdown notes for my til website (TODO add link)
 
-TODO - add github for the website code
-
+### TODOs
 - [ ] add templater copy below
 
 ### Usage notes to future me:
