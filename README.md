@@ -1,5 +1,7 @@
 The raw markdown notes for my til website (TODO add link)
 
+> Note: Image files aren't included here so viewing notes in the git repo will be incomplete. 
+
 ### TODOs
 - [ ] add templater copy below
 
