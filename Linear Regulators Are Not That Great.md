@@ -1,7 +1,10 @@
 ---
-publish:true
+title: Linear Regulators Are Not That Great
+date: 2023-10-08
+description: Thermal calculations for linear regulators
+tags: [electronics]
+math: false
 ---
-#til #electronics 
 
 TODO - copy from [[Example - Heatsink Sizing Thermal Calculations]]
 

@@ -1,7 +1,11 @@
 ---
-publish:true
+title: '"Hide Goodreads Added-to-Shelf Newsfeed Updates"'
+date: 2023-09-17
+description: 
+tags:
+  - using-software
+math: false
 ---
-#til #software-user-settings
 
 TIL how to prevent Goodreads books from showing up to your timeline when you add to e.g. a "Want to Read" shelf (for example for bulk adding), without making a private account.
 

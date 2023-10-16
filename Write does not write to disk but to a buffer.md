@@ -1,3 +1,13 @@
+---
+title: '"Write does not write to disk but to a buffer"'
+date: 2023-08-27
+description: 
+tags:
+  - python
+math: false
+---
+
+
 This is why in the mqtt-data-logger project the `__flush()` method is used every 2 seconds, it is like a "close" but for continuously writing
 
 > [!ai] Writing vs Flushing

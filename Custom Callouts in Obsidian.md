@@ -1,4 +1,10 @@
-#til #obsidian  #css
+---
+title: '"Custom Callouts in Obsidian"'
+date: 2023-08-26
+description: 
+tags: 
+math: false
+---
 
 TIL how to add custom icons to callouts in obsidian. The quickest way is to provide an icon name found at <https://lucide.dev> , for example with the <https://lucide.dev/icons/bot> icon `bot`, including the following in a custom css file in `/path/to/vault/.obsidian/snippets`:
 

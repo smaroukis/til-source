@@ -1,4 +1,10 @@
-tags:: #obsidian #vim #keyboard-shortcuts
+---
+title: Add vim-surround like shortcuts to Obsidian
+date: 2023-06-23
+description: 
+tags: [obsidian, vim]
+math: false
+---
 
 I installed the [Obsidian](https://obsidian.md) [Vimrc support](https://github.com/esm7/obsidian-vimrc-support) plugin to add better keyboard shortcuts for quickly surrounding selected text with parentheses - `()` . 
 

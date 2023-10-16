@@ -1,4 +1,12 @@
-tags: #cloudflare, #computer-networking
+---
+title: '"Fixing a setup issue with Github Pages and Cloudflare"'
+date: 2023-06-26
+description: 
+tags:
+  - cloudflare
+  - computer-networking
+math: false
+---
 
 By default when I imported my DNS records from Namecheap to Cloudflare the Encryption Mode is set to Flexible, which causes a redirect loop since the Github Pages site is set to enforce HTTPS.
 

@@ -1,7 +1,11 @@
 ---
-publish:true
+title: '"Recursive Functions are Bad for Embedded Systems"'
+date: 2023-08-26
+description: 
+tags:
+  - embedded-systems
+math: false
 ---
-#til #embedded-systems #level/basic 
 
 in [[C221-L09-Modules Recursion and ARM Application Procedure Call Standard ✅]] I learned about the ARM Application Procedure Call Standard and that:
 

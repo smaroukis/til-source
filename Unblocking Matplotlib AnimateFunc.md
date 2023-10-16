@@ -1,7 +1,11 @@
 ---
-publish:true
+title: "Unblocking Matplotlib AnimateFunc"
+date: 2023-10-09
+description: "Hunting down a bug for my real time graphing project"
+tags: [python]
+math: false
 ---
-#til #python 
+
 
 For my [real time graphing script](https://github.com/smaroukis/realtime-plotter/), I was hunting down a bug that wasn't allowing the matplotlib animation function. 
 

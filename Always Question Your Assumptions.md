@@ -1,4 +1,11 @@
-tags:: #electronics #til
+---
+title: '"Always Question Your Assumptions"'
+date: 2023-08-20
+description: 
+tags:
+  - life-tips
+math: false
+---
 
 Today I learned to always question your assumptions, even the most basic ones.
 

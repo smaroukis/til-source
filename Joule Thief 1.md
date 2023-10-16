@@ -1,4 +1,11 @@
-tags:: #electronics
+---
+title: '"Joule Thief 1"'
+date: 2023-06-20
+description: 
+tags:
+  - electronics
+math: false
+---
 
 Today I cleared up some personal misconceptions about how the [[Joule Thief]] works. 
 
