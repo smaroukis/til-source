@@ -20,4 +20,4 @@ Then enable this in the Obsidian Settings > Appearance > CSS Snippets
 
 > Note it won't work with Obsidian Publish
 
-Aside: I'm using it to create callouts for AI/LLM generated content that I include in my notes, so I know that I may need to verify the truthfulness of the statement later, such as in [[POP to PC vs BX instruction]].
+Aside: I'm using it to create callouts for AI/LLM generated content that I include in my notes, so I know that I may need to verify the truthfulness of the statement later, such as in [POP to PC vs BX instruction](POP%20to%20PC%20vs%20BX%20instruction).

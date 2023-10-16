@@ -7,11 +7,11 @@ tags:
 math: false
 ---
 
-Today I cleared up some personal misconceptions about how the [[Joule Thief]] works. 
+Today I cleared up some personal misconceptions about how the [Joule Thief](Joule%20Thief) works. 
 
 Previously I had the induced voltage of the "secondary" winding wrong, as I thought it helped to turn off the transistor while the current was increasing in the primary winding.
 
-![[circuit-joule-thief-analysis.jpeg]]
+![circuit-joule-thief-analysis](circuit-joule-thief-analysis.jpeg)
 _Corrected annotations, not sure why I used T instead of Q 🤷‍♂ _
 
 Now I added the correct voltage polarity to the induced secondary voltage during ②, increasing current through the primary coil. The voltage is induced such that it **adds** to the battery voltage, _further turning on the transistor_. 

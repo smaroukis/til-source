@@ -25,4 +25,4 @@ except KeyboardInterrupt:
 
 Code can be seen at https://github.com/smaroukis/realtime-plotter/. Here is an overview:
 
-![[Pasted image 20231009093501.png]]
+![Pasted image 20231009093501](Pasted%20image%2020231009093501.png)

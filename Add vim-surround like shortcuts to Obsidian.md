@@ -11,7 +11,7 @@ I installed the [Obsidian](https://obsidian.md) [Vimrc support](https://github.c
 Create and add the following to your custom `.vimrc` file (the plugin defaults to `.obsidian.vimrc`):
 
 ```config
-exmap surround_wiki surround [[ ]]
+exmap surround_wiki surround [ ](%20)
 exmap surround_double_quotes surround " "
 exmap surround_single_quotes surround ' '
 exmap surround_backticks surround ` `
