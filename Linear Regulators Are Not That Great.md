@@ -17,4 +17,4 @@ So if you want to push the 5V linear regulator to drive a raspberry pi, which ca
 So without going through the math, Emery was right. 
 
 Here are the calcs, per the guide at https://learn.sparkfun.com/tutorials/understanding-thermal-resistance/all:
-![calcs-heat-sink-7805](calcs-heat-sink-7805.jpeg)
+![calcs-heat-sink-7805](attachments/calcs-heat-sink-7805.jpeg)
