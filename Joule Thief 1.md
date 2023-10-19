@@ -1,5 +1,5 @@
 ---
-title: '"Joule Thief 1"'
+title: Joule Thief 1
 date: 2023-06-20
 description: 
 tags:

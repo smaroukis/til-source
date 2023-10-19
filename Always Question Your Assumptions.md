@@ -1,5 +1,5 @@
 ---
-title: '"Always Question Your Assumptions"'
+title: Always Question Your Assumptions
 date: 2023-08-20
 description: 
 tags:

@@ -1,5 +1,5 @@
 ---
-title: '"Custom Callouts in Obsidian"'
+title: Custom Callouts in Obsidian
 date: 2023-08-26
 description: 
 tags: 

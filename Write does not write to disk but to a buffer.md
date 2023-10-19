@@ -1,5 +1,5 @@
 ---
-title: '"Write does not write to disk but to a buffer"'
+title: Write does not write to disk but to a buffer
 date: 2023-08-27
 description: 
 tags:

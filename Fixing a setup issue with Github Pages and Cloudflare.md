@@ -1,5 +1,5 @@
 ---
-title: '"Fixing a setup issue with Github Pages and Cloudflare"'
+title: Fixing a setup issue with Github Pages and Cloudflare
 date: 2023-06-26
 description: 
 tags:

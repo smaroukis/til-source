@@ -1,5 +1,5 @@
 ---
-title: '"Hide Goodreads Added-to-Shelf Newsfeed Updates"'
+title: Hide Goodreads Added-to-Shelf Newsfeed Updates
 date: 2023-09-17
 description: 
 tags:

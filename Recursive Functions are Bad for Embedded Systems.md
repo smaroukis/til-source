@@ -1,5 +1,5 @@
 ---
-title: '"Recursive Functions are Bad for Embedded Systems"'
+title: Recursive Functions are Bad for Embedded Systems
 date: 2023-08-26
 description: 
 tags:
