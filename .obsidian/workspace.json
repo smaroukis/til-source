@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fixing a setup issue with Github Pages and Cloudflare.md",
+                "file": "Test - Relative Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fixing a setup issue with Github Pages and Cloudflare.md",
+                "file": "Test - Relative Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fixing a setup issue with Github Pages and Cloudflare.md",
+                "file": "Test - Relative Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fixing a setup issue with Github Pages and Cloudflare.md"
+                "file": "Test - Relative Links.md"
               }
             }
           }
@@ -149,19 +149,19 @@
   },
   "active": "95ff8ae7c1e1b842",
   "lastOpenFiles": [
+    "Joule Thief 1.md",
+    "Test - Relative Links.md",
+    "Fixing a setup issue with Github Pages and Cloudflare.md",
     "Always Question Your Assumptions.md",
     "Linear Regulators Are Not That Great.md",
     "Add vim-surround like shortcuts to Obsidian.md",
     "README.md",
     "Templates/t-TIL.md",
-    "Untitled.md",
     "Templates",
     "Write does not write to disk but to a buffer.md",
     "Unblocking Matplotlib AnimateFunc.md",
     "Recursive Functions are Bad for Embedded Systems.md",
-    "Joule Thief 1.md",
     "Hide Goodreads Added-to-Shelf Newsfeed Updates.md",
-    "Fixing a setup issue with Github Pages and Cloudflare.md",
     "Custom Callouts in Obsidian.md",
     "attachments/calcs-heat-sink-7805.jpeg",
     "attachments/circuit-joule-thief-analysis.jpeg",
