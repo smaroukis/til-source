@@ -3,22 +3,32 @@ The raw markdown notes for my til website (TODO add link)
 > Note: Image files aren't included here so viewing notes in the git repo will be incomplete. 
 
 ### TODOs
-- [ ] add templater copy below
+- [ ] script/hook for build upon push to main
+- [ ] warning for wikilinks
 
-### Usage notes to future me:
+## Usage notes to future me:
 
-#### `Obsidian-Git` Plugin Notes
+**`Obsidian-Git` Plugin Notes**
 Usage: ① Run `Commit all changes` then ② Run `Push` 
 
-Caution: if we change the pathname in Obsidian we need to update this in the `obsidian-git` plugin settings (update both `Custom base path` and `Custom Git Directory path`)
-- Currently: `01-99-Personal/30-49-Projects/37b-TIL-website/TIL-source`
- 
-#### Other Notes
- - if we change the github repo name we need to update the obsidian-exporter-helper script settings
-- Notes template, see [t-TIL](Templates/t-TIL.md)
+## First Time Setup
 
 ### Obsidian Setups
 - set default attachment location
+- set default links to markdown
 - plugins: 
 	- Templater
 	- Obsidian Git
+
+### Template
+The template isn't included in the remote so it doesn't copy over to the Hugo site. I place this file in the `Templates` folder (e.g. `Templates/t-til.md`). This uses the Templater plugin to create a new post with the correct frontmatter used by hugo.
+
+```
+---
+title: <% tp.file.title %>
+date: <% tp.file.creation_date("YYYY-MM-DD") %>
+description: 
+tags: 
+math: false
+---
+```
