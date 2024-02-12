@@ -1,5 +1,5 @@
 ---
-title: looping-over-serial
+title: Keeping Serial Device Connection Open in Python
 date: 2023-10-30
 description: 
 tags:

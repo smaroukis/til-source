@@ -1,5 +1,5 @@
 ---
-title: discrete-histograms
+title: Histograms for Discrete Variables in Numpy
 date: 2023-11-06
 description: 
 tags:
