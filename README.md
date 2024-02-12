@@ -1,4 +1,5 @@
-The raw markdown notes for my til website (TODO add link)
+**Today I Learned / TIL / Breadcrumbs**
+- The TIL website is inspired by others such as [Simon Willison](https://til.simonwillison.net/) and hackaday's concept of leaving [Breadcrumbs](https://hackaday.com/2023/08/09/share-your-projects-leave-breadcrumbs/) for projects.
 
 > Note: Image files aren't included here so viewing notes in the git repo will be incomplete. 
 
