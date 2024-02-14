@@ -5,7 +5,7 @@ description:
 tags:
   - python
 slug: 
-draft: true
+draft: false
 math: false
 ---
 

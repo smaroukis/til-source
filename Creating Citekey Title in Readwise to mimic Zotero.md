@@ -6,7 +6,7 @@ tags:
   - personal-knowledge-management
   - using-software
 slug: readwise-citekeys
-draft: true
+draft: false
 math: false
 ---
 

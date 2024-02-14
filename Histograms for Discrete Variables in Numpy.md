@@ -6,7 +6,7 @@ tags:
   - python
   - statistics
 slug: 
-draft: true
+draft: false
 math: true
 ---
 
