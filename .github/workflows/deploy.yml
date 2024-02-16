@@ -19,16 +19,19 @@ jobs:
     runs-on: ubuntu-22.04
     permissions: 
       contents: write
+    env: 
+        GITHUB_WORKSPACE: ${{ github.workspace }}
+        GIT_USER: "Github Actions [bot]"
+        GIT_EMAIL: "actions@github.com"
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Fetch all history for git info
+          submodules: 'recursive'
           repository: smaroukis/quartz
+          token: ${{ secrets.PERSONAL_TOKEN }}
       - name: Custom User Prepare Site Scripts
         run: ./_userscripts/prebuild.sh
-        env: 
-          GITHUB_WORKSPACE: ${{ github.workspace }}
-          EMAIL: ${{ secrets.EMAIL }}
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
