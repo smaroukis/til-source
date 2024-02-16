@@ -37,18 +37,20 @@ jobs:
           node-version: 18.14
       - name: Install Dependencies
         run: npm ci
+      - name: Print Working Directory
+        run: pwd
       - name: Build Quartz
-        run: npx quartz build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: public
+        run: npx quartz build -o "public"
+    #   - name: Upload artifact
+    #     uses: actions/upload-pages-artifact@v2
+    #     with:
+    #       path: public
  
   deploy:
     needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    # environment:
+    #   name: github-pages
+    #   url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
     - name: Deploy
@@ -57,4 +59,4 @@ jobs:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         external_repository: smaroukis/quartz
         publish_branch: gh-pages
-        publish_dir: ./public
+        publish_dir: ${{ github.workspace }}/quartz/public
