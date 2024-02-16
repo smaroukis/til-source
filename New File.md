@@ -7,4 +7,4 @@ slug:
 draft: true
 math: false
 ---
-Test
+Test.
