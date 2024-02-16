@@ -28,7 +28,11 @@ jobs:
       - name: Echo Workspace
         run: |
           echo $GITHUB_WORKSPACE
-          echo "Current WD: $(pwd)"
+          echo "Current WD:" $(pwd)
+      - name: Show Tree
+        run: |
+          echo "🍿 Tree:"
+          tree -L 2 -I "node_modules|docs|quartz"
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
@@ -44,13 +48,13 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Echo Current Directory
-        run: "echo '🍿 Current WD: $(pwd)'"
+        run: echo "Current WD:" $(pwd)
       - name: Build Quartz
         run: npx quartz build -o "public"
       - name: Show Tree
         run: |
           echo "🍿 Tree:"
-          tree -L 2
+          tree -L 2 -I "node_modules|docs|quartz"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
