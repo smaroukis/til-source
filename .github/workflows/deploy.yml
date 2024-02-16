@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
  
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-22.04
     permissions: 
       contents: write
@@ -25,6 +25,8 @@ jobs:
         GIT_EMAIL: "actions@github.com"
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
     steps:
+      - name: Echo Workspace
+        run: echo $GITHUB_WORKSPACE && echo "Current WD: $(pwd)"
       - uses: actions/checkout@v3
         with:
           submodules: 'recursive'
@@ -37,26 +39,21 @@ jobs:
           node-version: 18.14
       - name: Install Dependencies
         run: npm ci
-      - name: Print Working Directory
-        run: pwd
+      - name: Echo Current Directory
+        run: "🍿 Current WD: $(pwd)"
       - name: Build Quartz
         run: npx quartz build -o "public"
+      - name: Show Tree
+        run: echo "🍿 Tree:" && tree -L 2
     #   - name: Upload artifact
     #     uses: actions/upload-pages-artifact@v2
     #     with:
     #       path: public
- 
-  deploy:
-    needs: build
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        external_repository: smaroukis/quartz
-        publish_branch: gh-pages
-        publish_dir: ${{ github.workspace }}/quartz/public
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+            personal_token: ${{ secrets.PERSONAL_TOKEN }}
+            external_repository: smaroukis/quartz
+            publish_branch: gh-pages
+            publish_dir: ${{ github.workspace }}/quartz/public
+            # working-directory: 
