@@ -1,3 +1,6 @@
+Update 2024-02-17 - source markdown files now moved to https://github.com/smaroukis/quartz in the content folder.
+
+
 > Note if you are viewing this on the `https://til.maroukis.net` domain this is the README of the source notes at <https://github.com/smaroukis/til-source>. 
 
 **Today I Learned / TIL / Breadcrumbs**
